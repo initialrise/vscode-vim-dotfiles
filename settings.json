@@ -1,0 +1,54 @@
+{
+  //vim config
+  "vim.foldfix": true,
+  "vim.highlightedyank.enable": true,
+  "vim.hlsearch": true,
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindings": [
+    // { "before": ["<S-h>"], "commands": [":bprevious"] },
+    { "before": ["<S-t>"], "commands": [":bnext"] },
+    // { "before": ["<S-tab>"], "commands": [":bprevious"] },
+    // { "before": ["<tab>"], "commands": [":bnext"] },
+    // open nerdtree
+    {
+      "before": ["leader", "e"],
+      "commands": ["workbench.files.action.focusFilesExplorer"]
+    },
+    {
+      "before": ["leader", "f", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+
+    //split panes
+    { "before": ["leader", "v"], "commands": [":vsplit"] },
+    { "before": ["leader", "s"], "commands": [":split"] },
+    //navigate panes
+    {
+      "before": ["leader", "h"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["leader", "j"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["leader", "k"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["leader", "l"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+    //lsp
+    {
+      "before": ["g", "q"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["leader", "r"],
+      "commands": ["code-runner.run"]
+    }
+  ],
+  "json.schemas": [],
+  "workbench.colorTheme": "★★★★★ GRUVBOX ★★★★"
+}
