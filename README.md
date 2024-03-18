@@ -24,6 +24,10 @@
 - Navigate Down Pane: `<leader> j`
 - Navigate Up Pane: `<leader> k`
 - Navigate Right Pane: `<leader> l`
+#### Intellisense
+- Goto Defination `gd`
+- Hover Effect `gh`
+- Quick Fix Options `gq`
 #### WIP
 - Search by Source
 - More Intellisense keybindings
