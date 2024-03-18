@@ -24,5 +24,8 @@
 - Navigate Down Pane: `<leader> j`
 - Navigate Up Pane: `<leader> k`
 - Navigate Right Pane: `<leader> l`
+#### WIP
+- Search by Source
+- More Intellisense keybindings
 
 [Reference](https://dev.to/ansonh/10-vs-code-vim-tricks-to-boost-your-productivity-1b0n)
