@@ -1,4 +1,5 @@
 {
+  
   //vim config
   "vim.foldfix": true,
   "vim.highlightedyank.enable": true,
@@ -17,6 +18,10 @@
     {
       "before": ["leader", "f", "f"],
       "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["leader", "f", "g"],
+      "commands": ["workbench.view.search"]
     },
 
     //split panes
@@ -45,10 +50,16 @@
       "commands": ["editor.action.quickFix"]
     },
     {
+      "before": ["g", "p", "d"],
+      "commands": ["editor.action.peekDefinition"]
+    },
+    {
       "before": ["leader", "r"],
       "commands": ["code-runner.run"]
     }
   ],
   "json.schemas": [],
-  "workbench.colorTheme": "★★★★★ GRUVBOX ★★★★"
+  "workbench.colorTheme": "★★★★★ GRUVBOX ★★★★",
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
 }
+
