@@ -40,7 +40,7 @@
 - More Intellisense keybindings
 
 #### References
-[Reference 1](https://dev.to/ansonh/10-vs-code-vim-tricks-to-boost-your-productivity-1b0n)
-[Reference 2](https://code.visualstudio.com/docs/getstarted/keybindings)
-[Reference 3](https://code.visualstudio.com/api/references/when-clause-contexts)
+- [Reference 1](https://dev.to/ansonh/10-vs-code-vim-tricks-to-boost-your-productivity-1b0n)
+- [Reference 2](https://code.visualstudio.com/docs/getstarted/keybindings)
+- [Reference 3](https://code.visualstudio.com/api/references/when-clause-contexts)
 
