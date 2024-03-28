@@ -1,4 +1,4 @@
-
+// Place your key bindings in this file to override the defaultsauto[]
 [
   {
     "key": "shift+alt+f",
@@ -65,5 +65,11 @@
     "command": "workbench.action.terminal.toggleTerminal",
     "key": "ctrl+\\",
     "when": "terminal.active"
+  },
+  //testing escape on search
+  {
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "sideBarFocus && activeViewlet == 'workbench.view.search'",
+    "key": "Escape"
   }
 ]
