@@ -1,7 +1,7 @@
 # Dotfiles for VIM like experience in vscode
 ### Extensions Required for config
 - [VsCodeVim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
-- [CodeRunner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+- [CodeRunner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) 
 ### Keybindings Cheatsheet
 
 #### File Explorer
@@ -28,8 +28,14 @@
 - Hover Effect `gh`
 - Quick Fix Options `gq`
 #### Find Files
-- Find File by name: `<leader> ff`
+- Find File by name: `<leader> ff`  
+  While on Find File (Quick Open)
+  - Next File: `Ctrl+n`
+  - Previous FIle: `Ctrl+p`   
 - Find File by source(grep): `<leader> fg`
+  While on Find by Source 
+  - Next Result: `Ctrl+n`
+  - Previous Result: `Ctrl+p` 
 #### WIP
 - More Intellisense keybindings
 
