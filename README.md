@@ -32,7 +32,7 @@
   While on Find File (Quick Open)
   - Next File: `Ctrl+n`
   - Previous FIle: `Ctrl+p`   
-- Find File by source(grep): `<leader> fg`
+- Find File by source(grep): `<leader> fg`  
   While on Find by Source 
   - Next Result: `Ctrl+n`
   - Previous Result: `Ctrl+p` 
