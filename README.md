@@ -1,7 +1,13 @@
 # Dotfiles for VIM like experience in vscode
 ### Extensions Required for config
 - [VsCodeVim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
-- [CodeRunner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) 
+- [CodeRunner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+### Installation
+- Open Command Palette
+- Find keybindings and settings preferences
+- Open and overwrite keybindings.json
+- Open and overwrite settings.json
+![alt text](install.png)
 ### Keybindings Cheatsheet
 
 #### File Explorer
