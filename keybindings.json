@@ -1,4 +1,3 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
   {
     "key": "shift+alt+f",
@@ -67,9 +66,21 @@
     "when": "terminal.active"
   },
   //testing escape on search
+  // for file search and navigation when that pane is open
   {
     "command": "workbench.action.toggleSidebarVisibility",
     "when": "sideBarFocus && activeViewlet == 'workbench.view.search'",
     "key": "Escape"
+  },
+  {
+    "command": "search.action.focusNextSearchResult",
+    "when": "activeViewlet == 'workbench.view.search'",
+    "key": "ctrl+n"
+  },
+  {
+    "command": "search.action.focusPreviousSearchResult",
+    "when": "activeViewlet == 'workbench.view.search'",
+    "key": "ctrl+p"
   }
+  //to
 ]
