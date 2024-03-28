@@ -81,6 +81,16 @@
     "command": "search.action.focusPreviousSearchResult",
     "when": "activeViewlet == 'workbench.view.search'",
     "key": "ctrl+p"
+  },
+  {
+    "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+    "when": "inQuickOpen",
+    "key": "ctrl+n"
+  },
+  {
+    "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+    "when": "inQuickOpen",
+    "key": "ctrl+p"
   }
   //to
 ]
