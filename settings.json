@@ -58,8 +58,5 @@
       "commands": ["code-runner.run"]
     }
   ],
-  "json.schemas": [],
-  "workbench.colorTheme": "★★★★★ GRUVBOX ★★★★",
-  "terminal.integrated.defaultProfile.windows": "Git Bash"
 }
 
